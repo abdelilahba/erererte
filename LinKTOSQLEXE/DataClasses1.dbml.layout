@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="DataClasses1">
+  <DataContextMoniker Name="/DataClasses1DataContext" />
+  <nestedChildShapes>
+    <classShape Id="a877a49d-7a91-4de9-a751-8522c4ebfda1" absoluteBounds="0.5, 4.125, 2, 1.1939925130208338">
+      <DataClassMoniker Name="/DataClasses1DataContext/Garage" />
+      <nestedChildShapes>
+        <elementListCompartment Id="74957513-4e3d-409b-aab0-72a643e58276" absoluteBounds="0.515, 4.585, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="34f152ee-75ac-4ff7-ac77-64e1df0f1294" absoluteBounds="3.5, 4.125, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/DataClasses1DataContext/Piece" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e7fc18ba-14bc-4a1c-afce-1b7c8ad23977" absoluteBounds="3.515, 4.585, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="20325b3a-a53a-4675-bff6-e69a543183d6" absoluteBounds="3.5, 0.875, 2, 1.7708968098958333">
+      <DataClassMoniker Name="/DataClasses1DataContext/Reparation" />
+      <nestedChildShapes>
+        <elementListCompartment Id="de1a5aef-e235-47b5-bf72-36f7633fd6e6" absoluteBounds="3.515, 1.335, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9820080f-fdbd-4feb-a131-8bd94769fce5" absoluteBounds="6.25, 1.125, 2, 1.3862939453124998">
+      <DataClassMoniker Name="/DataClasses1DataContext/utilise" />
+      <nestedChildShapes>
+        <elementListCompartment Id="06d94cdf-1d9b-4ff8-91f2-e5cec3ab7199" absoluteBounds="6.265, 1.585, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5f9e413c-00a4-4781-bd4e-22cd425a7d15" absoluteBounds="0.5, 0.5, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/DataClasses1DataContext/voiture" />
+      <nestedChildShapes>
+        <elementListCompartment Id="877977c5-37cd-4878-ac9d-bb2bd831dd89" absoluteBounds="0.51500000000000012, 0.96, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.5 : 4.12591745577925); (2.875 : 3.75091745577925); (2.875 : 2.09259924934896); (3.5 : 2.09259924934896)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClasses1DataContext/Garage/Garage_Reparation" />
+      <nodes>
+        <classShapeMoniker Id="a877a49d-7a91-4de9-a751-8522c4ebfda1" />
+        <classShapeMoniker Id="20325b3a-a53a-4675-bff6-e69a543183d6" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 4.81814697265625); (7.25 : 4.81814697265625); (7.25 : 2.5112939453125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClasses1DataContext/Piece/Piece_utilise" />
+      <nodes>
+        <classShapeMoniker Id="34f152ee-75ac-4ff7-ac77-64e1df0f1294" />
+        <classShapeMoniker Id="9820080f-fdbd-4feb-a131-8bd94769fce5" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 1.81814697265625); (6.25 : 1.81814697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClasses1DataContext/Reparation/Reparation_utilise" />
+      <nodes>
+        <classShapeMoniker Id="20325b3a-a53a-4675-bff6-e69a543183d6" />
+        <classShapeMoniker Id="9820080f-fdbd-4feb-a131-8bd94769fce5" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.5 : 1.47679768880208); (3.5 : 1.47679768880208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataClasses1DataContext/voiture/voiture_Reparation" />
+      <nodes>
+        <classShapeMoniker Id="5f9e413c-00a4-4781-bd4e-22cd425a7d15" />
+        <classShapeMoniker Id="20325b3a-a53a-4675-bff6-e69a543183d6" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

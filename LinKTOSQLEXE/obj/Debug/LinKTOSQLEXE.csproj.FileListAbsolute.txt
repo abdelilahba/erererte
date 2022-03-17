@@ -1,0 +1,10 @@
+C:\Users\ss\source\repos\LinKTOSQLEXE\LinKTOSQLEXE\bin\Debug\LinKTOSQLEXE.exe.config
+C:\Users\ss\source\repos\LinKTOSQLEXE\LinKTOSQLEXE\bin\Debug\LinKTOSQLEXE.exe
+C:\Users\ss\source\repos\LinKTOSQLEXE\LinKTOSQLEXE\bin\Debug\LinKTOSQLEXE.pdb
+C:\Users\ss\source\repos\LinKTOSQLEXE\LinKTOSQLEXE\obj\Debug\LinKTOSQLEXE.csprojAssemblyReference.cache
+C:\Users\ss\source\repos\LinKTOSQLEXE\LinKTOSQLEXE\obj\Debug\LinKTOSQLEXE.Form1.resources
+C:\Users\ss\source\repos\LinKTOSQLEXE\LinKTOSQLEXE\obj\Debug\LinKTOSQLEXE.Properties.Resources.resources
+C:\Users\ss\source\repos\LinKTOSQLEXE\LinKTOSQLEXE\obj\Debug\LinKTOSQLEXE.csproj.GenerateResource.cache
+C:\Users\ss\source\repos\LinKTOSQLEXE\LinKTOSQLEXE\obj\Debug\LinKTOSQLEXE.csproj.CoreCompileInputs.cache
+C:\Users\ss\source\repos\LinKTOSQLEXE\LinKTOSQLEXE\obj\Debug\LinKTOSQLEXE.exe
+C:\Users\ss\source\repos\LinKTOSQLEXE\LinKTOSQLEXE\obj\Debug\LinKTOSQLEXE.pdb
